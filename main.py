@@ -18,4 +18,4 @@ name = "niko noviyanto"
 # print (name.isalpha())
 # print (name.count("i"))
 # print (name.replace("i", "a"))
-print (name*4)
+# print (name*4)
