@@ -5,7 +5,26 @@
 #  pass     = does nothing, acts as a placeholder
 
 
-while True:
-    name = input ("input your name, please? ")
-    if name != "":
-        break
+#  penggunaan "break"
+# while True:
+#     name = input ("input your name, please? ")
+#     if name != "":
+#         break
+
+#  penggunaan "continue"
+
+# telpon = "812 8331 0220"
+
+# for i in telpon:
+#     if i == " ":
+#         continue
+#     print (i, end="")
+
+
+# penggunaan pass
+
+for i in range (1, 21):
+    if i == 13:
+        pass
+    else :
+        print (i)
