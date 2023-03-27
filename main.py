@@ -11,7 +11,9 @@ niko, naunx, rino = 30, 31, 32
 
 name = "niko noviyanto"
 print (len(name))
+
 print (name.find("k"))
+
 print (name.upper())
 print (name.lower())
 print (name.isdigit())

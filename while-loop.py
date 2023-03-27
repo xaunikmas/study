@@ -7,7 +7,7 @@ while len(nama) == 0: # kondisi dimana input nama nya kosong, alias sama dengan 
 
 print("your name is " + nama)  # result : your name is niko
 
-# atau pake metode lain, speerti dibawah :
+# atau pake metode lain, sperti dibawah :
 
 nama = None
 
