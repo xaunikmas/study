@@ -6,6 +6,7 @@
 
 
 #  penggunaan "break"
+
 # while True:
 #     name = input ("input your name, please? ")
 #     if name != "":
@@ -23,8 +24,8 @@
 
 # penggunaan pass
 
-for i in range (1, 21):
-    if i == 13:
-        pass
-    else :
-        print (i)
+# for i in range (1, 21):
+#     if i == 13:
+#         pass
+#     else :
+#         print (i)

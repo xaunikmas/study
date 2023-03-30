@@ -4,8 +4,8 @@
 makanan = ["pizza", "burger", "ketoprak"]
 makanan [1] = "satay"
 
-makanan.append("gado-gado")
-makanan.pop()
+# makanan.append("gado-gado")
+# makanan.pop()
 
 for i in makanan:
     print (i)

@@ -1,9 +1,13 @@
 # casting adalah mengkonvert tyype data dari sebuah value ke type data lain
 
-x = 1
-y = 2.0
-z = "3"
+data_int = 10
+booll = False
 
-print (float(y))
-print (float(x))
-print (float(z))
+data_float = float(data_int)
+data_str = str(data_int)
+data_bool = bool(booll)
+
+print ("type data ", data_int, "adalah", type(data_int))
+print ("type data ", data_float, "adalah", type(data_float))
+print ("type data ", data_str, "adalah", type(data_str))
+print ("type data ", data_bool, "adalah", type(data_bool))

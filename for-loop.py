@@ -4,6 +4,7 @@ import time  # untuk import feat waktu
 # while loop = unlimited or infinite loop
 # for loop   = limited
 
+
 # for j in range (20):
 #     print (j + 2)
 
@@ -13,8 +14,7 @@ import time  # untuk import feat waktu
 #     print (i + 1)
 
 
-
-for j in range (10, 0, -1):
-    print (j)
-    time.sleep(1)
-    print("BOOMM, Nixau busted!!")
+# for j in range (10, 0, -1):
+#     print (j)
+#     time.sleep(1)
+#     print("BOOMM, Nixau busted!!")
