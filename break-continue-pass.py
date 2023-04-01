@@ -7,6 +7,32 @@
 
 #  penggunaan "break"
 
+
+
+
+# penggunaan continue
+telepon = "0812-8331-0220"
+
+for isi in telepon:
+    if isi == "-":
+        continue
+    print (isi, end="")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # while True:
 #     name = input ("input your name, please? ")
 #     if name != "":
