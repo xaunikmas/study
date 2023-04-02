@@ -7,51 +7,32 @@
 
 #  penggunaan "break"
 
-
-
+while True:
+    nama = input('masukkan nama anda? ')
+    if nama != '':
+        break
+print ('nama anda adalah ', nama)
+    
+print ('\n============= penggunaan break =======================\n')
 
 # penggunaan continue
+
 telepon = "0812-8331-0220"
 
-for isi in telepon:
-    if isi == "-":
+for i in telepon:
+    if i == "-":
         continue
-    print (isi, end="")
+    print (i, end='')
+
+print ('\n============= penggunaan continue =======================\n')
+
+# pengunaan pass
+
+for isi in range (1, 11):
+    if isi == 3:
+        pass
+    else:
+        print (isi)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# while True:
-#     name = input ("input your name, please? ")
-#     if name != "":
-#         break
-
-#  penggunaan "continue"
-
-# telpon = "812 8331 0220"
-
-# for i in telpon:
-#     if i == " ":
-#         continue
-#     print (i, end="")
-
-
-# penggunaan pass
-
-# for i in range (1, 21):
-#     if i == 13:
-#         pass
-#     else :
-#         print (i)
+print ('\n============= penggunaan pass =======================')
