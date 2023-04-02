@@ -1,55 +1,35 @@
-class Karyawan:
-    def __init__(self, inputName, inputJob, inputAdd, inputCity):
-        self.name = inputName
-        self.job = inputJob
-        self.address = inputAdd
-        self.city = inputCity
-
-karyawan1 = Karyawan ('niko','software dev', 'rawamangun', 'Jakarta')
-karyawan2 = Karyawan ('anunx', 'network engineer', 'bintaro', 'tangsel')
-karyawan3 = Karyawan ('rino', 'marketing agent', 'cempaka putih', 'Jakarta')
-
-print (karyawan1.__dict__)
-print (karyawan2.__dict__)
-print (karyawan3.__dict__)
-print ('\n')
-    # class Hero:
-#     def __init__(self, inputName, inputHealth, inputPower):
+# class Karyawan:
+#     def __init__(self, inputName, inputJob, inputAdd, inputCity):
 #         self.name = inputName
-#         self.health = inputHealth
-#         self.power = inputPower
-
-# hero1 = Hero ("radvik", 100, 100)
-# hero2 = Hero ("komar", 100, 10)
-# hero3 = Hero ("otong", 50, 10)
-
-# print (hero1.__dict__)
-# print (hero2.__dict__)
-# print (hero3.__dict__)
-
+#         self.job = inputJob
+#         self.address = inputAdd
+#         self.city = inputCity
         
+# karyawan1 = Karyawan ('niko','software dev', 'rawamangun', 'Jakarta')
+# karyawan2 = Karyawan ('anunx', 'network engineer', 'bintaro', 'tangsel')
+# karyawan3 = Karyawan ('rino', 'marketing agent', 'cempaka putih', 'Jakarta')
 
+# print (karyawan1.__dict__)
+# print (karyawan2.__dict__)
+# print (karyawan3.__dict__)
 
-programmer = 'niko'
-def programmer_makan():
-    print ('{} makan nasi'. format(programmer))
+##### CONSTRUCTOR ######
 
-guru = 'putri'
-def guru_makan():
-    print ('{} makan nasi'. format(guru))
+class Item:
+    def __init__(self, name, type, price, quantity):
+        
+        self.name = name
+        self.type = type
+        self.price = price
+        self.quantity = quantity
 
-engineer = 'anunx'
-def engineer_makan():
-    print ('{} makan nasi'. format(engineer))
+    def totalHarga(self):
+        return self.price * self.quantity
+    
+item1 = Item('phone', 'smartphone', 1000, 10)
+print (f'total harga dan jumlah smartphone:', item1.totalHarga())
+        
+item2 = Item('laptop', 'macbook', 2000, 10)
+print (f'total harga dan jumlah laptop macbook:', item2.totalHarga())
 
-programmer_makan()
-guru_makan()
-engineer_makan()
-
-def hasil (a, b):
-    hasil = (a * b)
-    return hasil
-
-print (hasil(5, 10))
-
-
+print (item1.__dict__)
