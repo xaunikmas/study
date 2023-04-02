@@ -34,6 +34,7 @@ angka = [1,2,3,4,5]
 for x in angka:
     print (x)
 
+print ('========== CONTOH FOR LOOP LAINNYA =====================\n')
 buah = ['nanas', 'jambu', 'melon', 'pepaya']
 
 for isi in buah:
