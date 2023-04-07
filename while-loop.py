@@ -46,17 +46,3 @@ print ('saya paling suka dengan buah', buah[3], '\n')
 
 #####  PENGGUNAAN NESTED LOOP ########
 
-masuk = int(input('masukkan angka: '))
-
-while (masuk < 100):
-    j = 2
-    while (j <= (masuk / j)):
-        if not (masuk % j):
-            break
-        j = j + 1
-        
-        if (j > masuk / j):
-            print (masuk, 'is bilangan prima')
-            masuk = masuk + 1
-            
-        print ('good bye')
