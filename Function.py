@@ -1,17 +1,27 @@
-def sapa (name, age, address):
-    print ('welcome '+ str(name) + ' you are ' + str(age) + ' years old ' + 'and lived in ' + str(address), '\n')
+def hay (nama, umur):
+    print ('welcome ' + nama, 'you are', umur, 'years old', '\n')
 
 #penggunaan function begini bisa, atau
-sapa ('James', 40, 'Jakarta')
+hay ('niko', 40)
 
-#begini juga bisa
-sapa (name = 'James', age = 40, address= 'jakarta')
+#begini
+hay (nama = 'niko', umur = 40)
 
 
 # penggunaan asterix jika kita ingin isi lebih dari 1 argument, dan bisa di spesifikan dengan indexing nya
-
 def halo (*names):
-    print ('welcome ' + names[0])
+    print ('welcome back ', names, '\n')
 
 halo ('niko', 'naunx', 'rino')
+
+
+def sapa (nama, umur, alamat):
+    print ('welcome, ' + 'your name is ' + str(nama) + ', your age is ' + str(umur) + ' & lived in ' + str(alamat))
+
+nama = input ('please enter your name? ')
+umur = input ('enter your age ')
+alamat = input ('enter your address ')
+
+sapa (nama, umur, alamat)
+
 
