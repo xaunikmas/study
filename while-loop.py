@@ -37,12 +37,14 @@ for x in angka:
 print ('========== CONTOH FOR LOOP LAINNYA =====================\n')
 buah = ['nanas', 'jambu', 'melon', 'pepaya']
 
-for isi in buah:
-    print ('saya suka makan buah',isi, '\n')
-
-print ('saya paling suka dengan buah', buah[3], '\n')
-
-
+for konten in buah:
+    print ('saya hobi makan',konten, '\n')
+print ('saya paling suka buah', buah[1])
 
 #####  PENGGUNAAN NESTED LOOP ########
 
+
+print ('========= penggunaan variable ========')
+
+jeneng = 'Niko'
+print (jeneng.replace('N', 'M'))
