@@ -20,3 +20,13 @@ elif nilai >= 90:
 else:
     ('you are dumb ')
 
+
+# OTHER EXAMPLE
+
+nomer = int(input ('masukkan angka/nomer '))
+
+if nomer % 2 == 0:
+    print ('nomer genap ')
+else:
+    print ('nomer ganjil ')
+

@@ -5,16 +5,32 @@ import time  # untuk import feat waktu
 # for loop   = limited
 
 
-# for j in range (20):
-#     print (j + 2)
+# for j in range (5):
+#     print (j + 1)
 
 # print (".............................")
 
-# for i in range (9, 20):
+# for i in range (9, 16):
 #     print (i + 1)
 
+# print ('\n')
 
-# for j in range (10, 0, -1):
+# for j in range (5, 0, -1):
 #     print (j)
 #     time.sleep(1)
-#     print("BOOMM, Nixau busted!!")
+    
+# print ('BOOM!! nixau busted !')
+
+
+isi = ['ba', 'bi', 'bu', 'be', 'bo']
+
+for konten in isi:
+    print (konten)
+    if konten == 'bi':
+        break
+
+for x in range (1, 4):
+    print (x)
+else:
+    print ('Done')
+

@@ -14,5 +14,14 @@ grup2 = ['banana', 'apples', 'mangos', 'orange', 'jambu', 'nanas', 'durian']
 
 print (grup2)
 
+noms = (
+    (1,2,3),
+    (4,5,6)
+)
+for kolom in noms:
+    for baris in kolom:
+        print (baris)
+
+
 
 
