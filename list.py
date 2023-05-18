@@ -21,7 +21,3 @@ noms = (
 for kolom in noms:
     for baris in kolom:
         print (baris)
-
-
-
-

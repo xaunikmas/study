@@ -1,0 +1,32 @@
+
+h1{
+    background-image: url(picts/img.jpg);
+    background-position: right;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-size: 50px;
+    color:brown
+}
+
+p{
+    background-color: antiquewhite;
+    background-image: url(picts/watercolor.webp)
+}
+
+p { 
+    font-family: Helvetica;
+    font-size: 20px;
+    color: black
+}
+p1 {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: black;
+    word-spacing: normal;
+}
+p2{
+    font-family: Cambria;
+    font-size: 15px;
+    color: black;
+    word-spacing: 5px
+}
