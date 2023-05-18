@@ -1,13 +1,12 @@
 coba = 0
-rahasia = 6
+rahasia = 4
 limit = 3
 
 while coba < limit:
-    tebak_angka = (int(input('masukkan angka [1-10] ')))
-
-    if tebak_angka == rahasia:
+    masuk = int(input('masukkan angka [1 -9] (tebak angka rahasia: ) '))
+    if masuk == rahasia:
         print ('selamat, anda menang ')
-    coba = coba + 1
+    coba = coba +1
 
 else:
-    print ('maaf, anda kurang beruntung. Silakan coba lagi ')
+    print ('maaf, anda kurang beruntung ')
