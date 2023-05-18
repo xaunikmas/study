@@ -30,3 +30,4 @@ if nomer % 2 == 0:
 else:
     print ('nomer ganjil ')
 
+

@@ -21,7 +21,7 @@ import time
 
 hitung = 1
 while (hitung < 4):
-    print ('...', hitung)
+    print (hitung)
     time.sleep (1)
     hitung = hitung + 1
 
