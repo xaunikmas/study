@@ -22,15 +22,14 @@ import time  # untuk import feat waktu
 # print ('BOOM!! nixau busted !')
 
 
-isi = ['ba', 'bi', 'bu', 'be', 'bo']
+# for letter in 'Nixau':
+    # print (letter)
 
-for konten in isi:
-    print (konten)
-    if konten == 'bi':
-        break
 
-for x in range (1, 4):
-    print (x)
-else:
-    print ('Done')
+daftar = ['ba', 'bi', 'bu', 'be', 'bo']
 
+for isi in daftar:
+        if isi == 'be':  
+            break
+        print (isi)
+        

@@ -1,21 +1,18 @@
-def salam (nama, umur, alamat):
-    print ('welcome ' + nama, 'you are '+ str(umur), 'and you lived in '+ alamat, '\n')
-salam ('niko', 40, 'jakarta')
+def salam (nama, alamat):
+    print ('welcome '+ nama, 'yang tinggal di ' + alamat)
 
-# ATAU BISA MENGGUNAKAN FORMAT BEGINI
-
-def regarde (nama, umur, alamat, pekerjaan):
-    print ('halo '+ nama, 'kamu berumur '+str(umur), 'tahun, dan kamu tinggal di '+ alamat, 'pekerjaanmu '+ pekerjaan)
-
+salam ('niko', 'Jakarta')
 
 #  BIAR LEBIH INTERAKTIF, MENGGUNAKAN INPUT DARI USER
 
-nama = input ('masukkan nama mu ')
-umur = int(input('masukkan umur mu '))
-alamat = input ('dimana kamu tinggal? ')
+def regarde (jeneng, usiya, lamat, pekerjaan):
+    print ('Halo ' + jeneng, 'usiamu ' + str(usiya), 'kamu tinggal di ' + lamat, 'dan bekerja sebagai ' + pekerjaan)
+jeneng = input ('masukkan nama mu ')
+usiya = int(input('masukkan umur mu '))
+lamat = input ('dimana kamu tinggal? ')
 pekerjaan = input ('apa pekerjaanmu? ')
 
-regarde (nama, umur, alamat, pekerjaan)
+regarde (jeneng, usiya, lamat, pekerjaan)
 
 
 # # MENGGUNAKAN LEBIH DARI 1 ARGUMENT/NILAI
